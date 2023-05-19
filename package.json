@@ -1,0 +1,29 @@
+{
+  "name": "next-server-localization",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "i18next": "^22.4.10",
+    "i18next-chained-backend": "4.2.0",
+    "i18next-http-backend": "^2.1.1",
+    "i18next-http-middleware": "^3.3.0",
+    "next": "13.2.3",
+    "next-i18next": "^13.2.1",
+    "next-translate": "^2.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.2.2"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  }
+}
